@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Free movie catalogue for you" />
+    <link rel="icon" href="./favicon.png" />
+    <title>Foodie Finder Apps</title>
+  </head>
+  <header class="header">
+    <a id="menu" class="header__menu" tabindex="0">☰</a>
+  </header>
+  <body>
+    <a href="#maincontent" class="skip-link">Menuju ke konten</a>
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
+        </li>
+        <li class="nav__item">
+          <a href="#"
+            >Favorite <i class="fa-solid fa-heart fa-beat-fade"></i
+          ></a>
+        </li>
+        <li class="nav__item">
+          <a href="https://www.instagram.com/tatan16_/"
+            >About Us <i class="fa-solid fa-user"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <main id="maincontent">
+      <!-- Jumbotron -->
+      <div
+        class="hero"
+        style="
+          background-image: linear-gradient(
+              rgba(0, 0, 5, 0.5),
+              rgba(0, 0, 5, 0.5)
+            ),
+            url('images/heros/hero-image_4.jpg');
+        "
+      >
+        <div class="heroinner">
+          <h1 class="herotitle">Foodie Finder Apps</h1>
+          <p class="herosubtitle">Temukan Restoran Terbaik Anda</p>
+        </div>
+      </div>
+      <!-- Content -->
+      <main id="content">
+        <section class="content">
+          <div class="latest">
+            <h1>Explore Restaurant</h1>
+            <div class="card-list" id="tes"></div>
+          </div>
+        </section>
+      </main>
+    </main>
+    <footer>
+      <restaurant-footer />
+    </footer>
+
+    <script type="javascript" src="./dist/app.bundle.js"></script>
+  </body>
+</html>
